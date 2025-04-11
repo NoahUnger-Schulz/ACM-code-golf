@@ -1,2 +1,2 @@
-from datetime import datetime as d
-print(d.strptime(input(), "%Y-%m-%d").strftime('%A'))
+import pandas as p
+print(p.Timestamp(input()).day_name())
