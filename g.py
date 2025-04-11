@@ -1,1 +1,2 @@
-print((lambda a:"Tues,Wednes,Thurs,Fri,Satur,Sun,Mon".split(",")[(int("-400351362402"[a[1]])+a[2]+int(1.2425*a[0]))%7])(list(map(int,input().split("-"))))+"day")
+a,b,c=*map(int,input().split("-")),
+print("Tues,Wednes,Thurs,Fri,Satur,Sun,Mon".split(",")[(int(1.2425*a)+int("-400351362402"[b])+c)%7]+"day")
